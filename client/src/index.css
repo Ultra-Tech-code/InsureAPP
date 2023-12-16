@@ -1,0 +1,63 @@
+/* Import font Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 
+HEADERS
+-H1 text— 64px(4rem) (Hero Section header)
+
+-H3 text —48px(3rem) (Landing pages Body headers & Dashboard title)
+
+-H4 text—pending (for Dashboard Body headers)
+
+-H5 text—24px(1.5rem) (for Navbar texts)
+
+Then for the Body:
+-18px(1.125rem)  for all body texts.
+-34px(2.125rem) for the Hero section.
+
+Font weights
+-H1(900)--tailwind "font-heavy"
+-H3 and H4(700)--tailwind "font-bold"
+-H5 (600)—tailwind "font-semibold"
+-Body text and Hero Section body text (400)--tailwind "font-regular"
+
+Font Style
+-font-lato.
+
+Text-color
+-black (#111111)
+-white (#ffffff)
+
+Background colors
+-Black (#111111)
+-white (#ffffff)
+-orange (#e76927).
+*/
+
+/* global styling */
+:root {
+    /* insure custom color */
+    --orange-bg: #e76927;
+    --orange-hover: #ffa074;
+    --white-bg: #ffffff;
+    --white-text: #ffffff;
+    --white-bg: #ffffff;
+    --black-bg: #111111;
+    --black-text: #111111;
+    --lavender-bg: #DFE7FA;
+    --blue-bg: #1E90FF;
+    --form-border-bg: #64748B;
+  }
+
+  *{
+    font-family: 'Lato', sans-serif;
+  }
+
+  input:focus{
+    outline: none;
+  }
